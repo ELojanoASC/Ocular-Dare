@@ -19,7 +19,7 @@ var bta = []
 //code that places the random challenge on the challenge page. 
 
 database.on('child_added',function(dataRow){
-		.messageBoard = true;
+		// .messageBoard = true;
 		var row = dataRow.val();
 		bta.push(row.MESSAGE);
 		addToPage();
