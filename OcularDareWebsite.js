@@ -13,7 +13,9 @@ var rand
 var newRand
 var bta = []
 
-$("#messageBoard").append("<p>" + bta[4]);
+
+$("#messageBoard").html('');
+$("#messageBoard").append("<p>" + bta[0]);
 //code that places the random challenge on the challenge page. 
 
 database.on('child_added',function(dataRow){
