@@ -24,7 +24,7 @@ database.on('child_added',function(dataRow){
 function addToPage(){
 	$("#messageBoard").html('');
 	rand = bta[Math.floor(Math.random() * bta.length)];
-	$("#messageBoard").append("<p>" + bta[0]);
+	$("#messageBoard").append("<p>" + rand);
 }
 
 
