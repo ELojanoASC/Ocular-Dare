@@ -854,3 +854,9 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+		
+		.messageBoard{
+		display:none;
+		animation-delay: 1;
+		}
+		}
